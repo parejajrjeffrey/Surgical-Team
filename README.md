@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/reasoning_rules-225-green?style=for-the-badge" alt="225 Reasoning Rules">
   <img src="https://img.shields.io/badge/specialists-7-purple?style=for-the-badge" alt="7 Specialists">
   <img src="https://img.shields.io/badge/domains-6-orange?style=for-the-badge" alt="6 Domains">
-  <a href="https://github.com/parejajrjeffrey/Surgical-Team/blob/main/LICENSE"><img src="https://img.shields.io/github/license/parejajrjeffrey/Surgical-Team?style=for-the-badge&color=green" alt="License"></a>
+  <a href="https://github.com/parejajrjeffrey/Surgical-Team/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC_BY--SA_4.0-green?style=for-the-badge" alt="License: CC BY-SA 4.0"></a>
 </p>
 
 <p align="center">
