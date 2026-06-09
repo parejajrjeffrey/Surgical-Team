@@ -1,0 +1,101 @@
+{
+  "name": "surgical-team",
+  "displayName": "Surgical Team — Elite Engineering AI Skills",
+  "description": "7 specialized AI Doctors (Backend, DevOps, QA, Frontend, Security, Data, Orchestrator) with 225 rules, 39 pipeline stages, and 133 quality checks across 6 engineering domains.",
+  "version": "2.4.1",
+  "author": "Jeffrey Pareja",
+  "license": "CC BY-SA 4.0",
+  "homepage": "https://github.com/parejajrjeffrey/Surgical-Team",
+  "repository": "https://github.com/parejajrjeffrey/Surgical-Team",
+  "keywords": [
+    "cline",
+    "ai-skills",
+    "backend",
+    "devops",
+    "qa",
+    "testing",
+    "frontend",
+    "ui-ux",
+    "security",
+    "compliance",
+    "data-engineering",
+    "analytics",
+    "api",
+    "kubernetes",
+    "terraform",
+    "playwright",
+    "dbt",
+    "soc2",
+    "iso27001"
+  ],
+  "platforms": [
+    "cline",
+    "vscode",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "codex",
+    "continue",
+    "gemini",
+    "qoder",
+    "roocode",
+    "kilocode",
+    "trae",
+    "opencode",
+    "codebuddy",
+    "droid",
+    "warp",
+    "augment",
+    "antigravity"
+  ],
+  "skills": {
+    "dr-orchestrator": {
+      "displayName": "Dr. Orchestrator",
+      "description": "Chief of Surgery — triages requests and dispatches the right specialist doctor",
+      "rules": 225,
+      "role": "Master Surgical Team Director"
+    },
+    "dr-backend": {
+      "displayName": "Dr. Backend",
+      "description": "Elite System Architect — API, database, auth, caching, resilience",
+      "rules": 41,
+      "pipelineStage": 7,
+      "role": "Backend & API Engineering"
+    },
+    "dr-devops": {
+      "displayName": "Dr. DevOps",
+      "description": "Elite Platform Architect — IaC, Kubernetes, CI/CD, observability, DR",
+      "rules": 39,
+      "pipelineStage": 7,
+      "role": "DevOps & Infrastructure"
+    },
+    "dr-qa": {
+      "displayName": "Dr. QA",
+      "description": "Elite Quality Gatekeeper — E2E, API contract, performance, a11y, security testing",
+      "rules": 36,
+      "pipelineStage": 6,
+      "role": "QA & Testing Engineering"
+    },
+    "dr-frontend": {
+      "displayName": "Dr. Frontend",
+      "description": "Elite Experience Architect — components, design tokens, a11y, Core Web Vitals, state",
+      "rules": 38,
+      "pipelineStage": 7,
+      "role": "Frontend UI/UX Engineering"
+    },
+    "dr-security": {
+      "displayName": "Dr. Security",
+      "description": "Elite Threat Defender — AppSec, cloud security, IAM, compliance, IR",
+      "rules": 37,
+      "pipelineStage": 6,
+      "role": "Security & Compliance Engineering"
+    },
+    "dr-data": {
+      "displayName": "Dr. Data",
+      "description": "Elite Pipeline Architect — dbt, Airflow, data quality, warehousing, governance",
+      "rules": 34,
+      "pipelineStage": 6,
+      "role": "Data Engineering & Analytics"
+    }
+  }
+}

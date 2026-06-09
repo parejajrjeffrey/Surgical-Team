@@ -1,0 +1,38 @@
+{
+"name": "surgical-team",
+  "version": "2.4.1",
+  "description": "CLI installer for the Surgical Team — 7 AI Doctors with 225 rules across 6 engineering domains",
+  "main": "index.js",
+  "bin": {
+    "cst": "./index.js",
+    "surgical-team": "./index.js"
+  },
+  "keywords": [
+    "cline",
+    "ai-skills",
+    "backend",
+    "devops",
+    "qa",
+    "testing",
+    "frontend",
+    "security",
+    "data-engineering",
+    "surgical-team",
+    "ai-doctors",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "codex",
+    "cline"
+  ],
+  "repository": "https://github.com/parejajrjeffrey/Surgical-Team",
+  "license": "CC-BY-SA-4.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "assets/",
+    "templates/"
+  ]
+}

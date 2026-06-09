@@ -1,0 +1,13 @@
+{
+  "name": "dr-backend",
+  "displayName": "Dr. Backend — Elite System Architect",
+  "description": "API design, database architecture, authentication/authorization, caching, message queues, resilience patterns, and observability. 41 rules, 7-stage reasoning pipeline.",
+  "version": "2.4.1",
+  "author": "Cline-Engineering",
+  "license": "CC BY-SA 4.0",
+  "keywords": ["backend", "api", "openapi", "postgresql", "graphql", "grpc", "caching", "resilience", "idempotency", "rate-limiting"],
+  "stacks": ["Node.js", "Go", "Python", "Rust", "C#", "Java"],
+  "rules": 41,
+  "pipelineStages": 7,
+  "checklistItems": 23
+}
