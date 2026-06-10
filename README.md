@@ -29,7 +29,7 @@
 
 The flagship feature — each Doctor is a self-contained AI persona with its own specialized rulebook, reasoning pipeline, cross-team handoff protocols, and pre-delivery quality checklist. When paged, a Doctor loads their domain knowledge and operates with surgical precision.
 
-```
+
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │                          DR. BACKEND — API AUDIT REPORT                                 │
 ├─────────────────────────────────────────────────────────────────────────────────────────┤
@@ -37,22 +37,22 @@ The flagship feature — each Doctor is a self-contained AI persona with its own
 │  ENDPOINT: POST /api/orders                                                             │
 │                                                                                         │
 │  VIOLATIONS FOUND:                                                                      │
-│     🔴 R003: No Idempotency-Key validation — duplicate POSTs will create duplicate       │
+│      R003: No Idempotency-Key validation — duplicate POSTs will create duplicate        |
 │              orders. Add Idempotency-Key header with 24-hour TTL.                       │
-│     🔴 R012: SQL interpolation detected in orderRepository.js line 47:                  │
+│      R012: SQL interpolation detected in orderRepository.js line 47:                    │
 │              `db.query(\`SELECT * FROM orders WHERE id = \${req.params.id}\`)`          │
 │              Replace with parameterized query: db.query('SELECT * FROM orders           │
 │              WHERE id = $1', [req.params.id])                                           │
-│     🟧 R002: FK customer_id on orders table has no index — EXPLAIN shows Seq Scan.     │
+│      R002: FK customer_id on orders table has no index — EXPLAIN shows Seq Scan.        │
 │              Add: CREATE INDEX idx_orders_customer_id ON orders(customer_id);           │
-│     🟧 R008: GET /api/orders has no pagination — query returns all rows. Add            │
+│      R008: GET /api/orders has no pagination — query returns all rows. Add              │
 │              cursor-based pagination with maxPageSize=100.                              │
 │                                                                                         │
 │  HANDOFFS REQUIRED:                                                                     │
-│     → Dr. QA: Idempotency test vectors for POST /api/orders                            │
-│     → Dr. DevOps: Migration lock estimate for new FK index                             │
+│     → Dr. QA: Idempotency test vectors for POST /api/orders                             │
+│     → Dr. DevOps: Migration lock estimate for new FK index                              │
 │                                                                                         │
-│  PRE-DELIVERY CHECKLIST: 18/23 items pass, 4 fail, 1 not applicable                    │
+│  PRE-DELIVERY CHECKLIST: 18/23 items pass, 4 fail, 1 not applicable                     │
 │                                                                                         │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -85,7 +85,7 @@ The flagship feature — each Doctor is a self-contained AI persona with its own
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │  4. CROSS-TEAM HANDOFFS                                         │
-│     Dr. Backend → Dr. QA (idempotency test vectors)            │
+│     Dr. Backend → Dr. QA (idempotency test vectors)             │
 │     Dr. Backend → Dr. DevOps (migration lock estimates)         │
 │     Dr. Backend → Dr. Frontend (OpenAPI spec update)            │
 └─────────────────────────────────────────────────────────────────┘
