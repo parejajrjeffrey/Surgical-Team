@@ -29,7 +29,7 @@
 
 The flagship feature — each Doctor is a self-contained AI persona with its own specialized rulebook, reasoning pipeline, cross-team handoff protocols, and pre-delivery quality checklist. When paged, a Doctor loads their domain knowledge and operates with surgical precision.
 
-
+```
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │                          DR. BACKEND — API AUDIT REPORT                                 │
 ├─────────────────────────────────────────────────────────────────────────────────────────┤
